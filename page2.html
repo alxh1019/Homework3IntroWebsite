@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Description</title>
+    <style>
+        body {
+            background-color: lightyellow;
+        }
+
+        h1 {
+            color: blue;
+            font-size: 24px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+
+    <button id = "navigateButton">Go to Intro Page</button>
+    <script>
+        const navigateButton = document.getElementById('navigateButton')
+        navigateButton.addEventListener('click', function(){
+            window.location.href = "index.html";
+        })
+    </script>
+  
+    <p class = "A">
+      For this website, I created a GitHub repository and included all pages that are needed as HTML files. 
+      Each one of the two pages that I created have titles of their description as well as a button that will navigate you to the other page. 
+      This is done by creating a button, adding text to the button, and having a function for the button to navigate to another HTML file. 
+      My first HTML file, or page, has the use of storing an introduction paragraph about myself. 
+      Here I delve into myself as a student, my hobbies, and some projects that I am currently working on as a sophomore in college. 
+      The second HTML file, or page, has the use of storing this paragraph. The paragraph has the use of telling you what my website is as a whole. 
+      Additionally, this page will contain a contact section with a link to my LinkedIn. 
+      As for the style of my website, the content description page will have a header smaller than the introduction page along with a different font. 
+      Also, this paragraph will be encased in a box and the background will be a different color than the introduction page. 
+      Thank you for visiting my website!
+    </p>
+
+
+</body>
+</html>
